@@ -67,7 +67,7 @@ jobs:
       with:
         name: common-cli-load-test
         build_path: target # build artifact(s) directory
-        s3_bucket: codeguru-reviewer-9a775d30-bdc8-4de7-b44f-ceda5b074b28
+        s3_bucket: codeguru-reviewer-cd77b5ea-a435-451a-ac4a-6c527c5d1e10
 
     - name: Upload review result
       if: ${{ always() }}
