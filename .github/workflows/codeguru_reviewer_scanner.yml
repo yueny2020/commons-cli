@@ -65,7 +65,7 @@ jobs:
       uses: ./.github/yueny2020/cicd-actions
       if: ${{ success() }}
       with:
-        name: common-cli-load-test
+        name: common-cli-load-test-1
         build_path: target # build artifact(s) directory
         s3_bucket: codeguru-reviewer-cd77b5ea-a435-451a-ac4a-6c527c5d1e10
 
